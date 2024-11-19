@@ -2,14 +2,11 @@
 using cs_TDD_and_Communication;
 namespace cs_TDD_and_Communication_Test;
 
-public partial class Tests
-{
     public class ASCIISumTests
     {
         //Happy times
         [Test]
         [TestCase("", 0)]
-
         [TestCase("\0", 0)]
         [TestCase("A", 65 )]
         [TestCase("a", 97)]
@@ -46,4 +43,3 @@ public partial class Tests
             
         }
     }
-}

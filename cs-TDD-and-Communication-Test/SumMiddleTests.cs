@@ -3,7 +3,7 @@ using FluentAssertions;
 
 namespace cs_TDD_and_Communication_Test;
 
-public partial class Tests
+public class SumMiddleTests
 {
     [SetUp]
     public void Setup()
